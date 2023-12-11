@@ -1,7 +1,7 @@
 let btns = document.querySelectorAll(".btn");
 let submit = document.getElementById("submit");
 function downloadResume() {
-    var fileUrl = 'file:///C:/Users/Dell/Downloads/Shraddha_Pandey_Resume.pdf';
+    var fileUrl = 'https://shraddhapandey123.github.io/Codsoft_level_1_task1_LandingPage/resume.pdf';
     var a = document.createElement('a');
     a.href = fileUrl;
     a.download = 'resume.pdf';
